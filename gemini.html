@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login Gemini</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1b1c30;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #FFF;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 300px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #2a2b38;
+            border: none;
+            border-radius: 15px;
+            color: #FFF;
+        }
+
+        p {
+            color: #FFF;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: aquamarine;
+            text-decoration: none;
+        }
+
+        button {
+            background-color: #77c97b;
+            color: #FFF;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 150px; /* Largura menor que os inputs */
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0px;
+            margin-bottom: 270px ;
+
+        }
+
+        .navegacao-paginas a {
+            margin: 0 15px; 
+            color: aquamarine;
+            text-decoration: none;
+        }
+
+        .navegacao-paginas a:hover {
+            color: rgba(127, 255, 212, 0.425);
+            text-decoration: none;
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LOGIN</h1> 
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Senha">
+        <p>Ainda não tem uma conta? <a href="#">Crie uma</a>.</p>
+        <button>Entrar</button>
+    </div>
+    <footer>
+        <div class = "navegacao-paginas">
+            <a href="gemini.html">Gemini</a>
+            <a href="deepSeek.html">deepSeek</a>
+            <a href="index.html">Chatgpt</a>
+        </div>
+    </footer>
+</body>
+</html>
